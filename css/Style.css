@@ -54,3 +54,20 @@ body {
 .header .nav a:hover {
   color: var(--green);
 }
+.header .icons div {
+  border:1px solid black;
+  height: 4.5rem;
+  width: 4.5rem;
+  padding:1.2rem;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  font-size:2rem;
+  margin:1px;
+  cursor:pointer;
+}
+.header .icons div:hover{
+  background-color:var(--green);
+}
+#menu-btn{
+  display:none;
+}
