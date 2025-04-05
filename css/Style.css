@@ -178,7 +178,8 @@ body {
   background-color: green;
 }
 .header .login-form {
-  width: 500px;
+  width: 300px;
+  background-color: #666;
   border: 2px solid black;
   border-radius: 0.5rem;
   position: absolute;
@@ -190,18 +191,18 @@ body {
 }
 .header .login-form h3 {
   font-size: 2rem;
-  padding: 2rem;
   display: block;
   text-align: center;
 }
 .header .login-form .email {
   border: 1px solid black;
   border-radius: 0.5rem;
+  padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: block;
-  width: 400px;
-  margin-left: 49px;
+  width:250px;
+  margin-left: 20px;
 }
 .header .login-form .password {
   border: 1px solid black;
@@ -209,8 +210,8 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: block;
-  width: 400px;
-  margin-left: 49px;
+  width: 250px;
+  margin-left: 20px;
 }
 .header .login-form .forgot-password {
   padding-left: 40%;
@@ -226,7 +227,49 @@ body {
   padding-left: 40%;
 }
 .header .login-form .btn {
-  width: 400px;
-  margin-left: 50px;
+  width: 250px;
+  margin-left: 20px;
   margin-bottom: 10px;
+}
+section {
+  padding-top: 10rem;
+}
+.home {
+  border: 0px solid black;
+  width: 1250px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  background: url(../image/fruits.png) no-repeat;
+  background-size: 10rem 10rem;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50rem;
+  padding-bottom: 2rem;
+}
+.home .content {
+  background-color: transparent;
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+}
+.home .content h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+.home .content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.home .content .btn {
+  display: block;
+  margin: 2rem auto 0;
+  text-align: center;
+  width: 20rem;
 }
