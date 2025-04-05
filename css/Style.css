@@ -3,9 +3,10 @@
   --green: green;
   --black: #130f40;
   --light-color: #666;
-  --box-shadow: 0.5rem 1 rem rgb(28, 24, 24);
+  --box-shadow: 0 .5rem 1.5 rem rgb(28, 24, 24);
   --border: 2rem solid rgba(0, 0, 0.1);
   --outline: 0.1rem solid rgba(0, 0, 0.1);
+  --header-height: 10rem;
 }
 * {
   font-family: "poppins", sans-serif;
@@ -38,6 +39,7 @@ body {
   justify-content: space-around;
   padding: 30px;
   background: #fff;
+  height: var(--header-height);
 }
 .header .logo {
   font-size: 2.5rem;
@@ -201,7 +203,7 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: block;
-  width:250px;
+  width: 250px;
   margin-left: 20px;
 }
 .header .login-form .password {
@@ -245,7 +247,6 @@ section {
   background-position: center;
   background-size: cover;
   padding-top: 50rem;
-  padding-bottom: 2rem;
 }
 .home .content {
   background-color: transparent;
@@ -273,3 +274,57 @@ section {
   text-align: center;
   width: 20rem;
 }
+.features .heading {
+  position: absolute;
+  top: 90%;
+  padding-left: 520px;
+  font-size: 2rem;
+  color: var(--black);
+}
+.heading span {
+  background-color: var(--green);
+  padding: 10px;
+  color: #fff;
+}
+.features .box-container{
+  border:0px solid;
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  gap:1.5rem;
+  margin-left:70px;
+  margin-right:70px;
+}
+.features .box-container .box{
+  border:2px solid black;
+  background-color:#fff;
+  border-radius:.5rem;
+  padding:2rem;
+  width: 300px;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+.features .box-container .box img{
+  border-radius: 50%;
+  height: 150px;
+  padding-bottom: 10px;
+}
+.features .box-container .box h3{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.features .box-container .box p{
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+.features .box-container .box .btn{
+width: 200px;
+display: flex;
+justify-content: center ;
+}
+.features .box-container .box:hover{
+  cursor: pointer;
+  background-color:darkgray;
+}
+
