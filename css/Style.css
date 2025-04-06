@@ -366,6 +366,42 @@ section {
   color: gold;
 }
 .products .product-slider .box:hover{
-  cursor: pointer;
   box-shadow:  1px 1px 10px 4px var(--green);
+}
+.categories .heading{
+  font-size: 3rem;
+}
+.categories .outter-box{
+  padding:2px;
+  text-align: center;
+  display:flex;
+  justify-content: space-around ;
+  margin-top:10px;
+}
+.categories .outter-box .inner-box{
+  border:2px solid black;
+  border-radius:.5rem;
+  margin:20px;
+  height:350px;
+  width: 300px;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  background-color: #fff;
+}
+.categories .outter-box .inner-box img{
+  padding-top: 20px;
+  width: 200px;
+  height: 200px;
+  padding:10px;
+  border-radius: .5rem;
+}
+.categories .outter-box .inner-box .btn{
+  margin:10px 20px;
+}
+.categories .outter-box .inner-box h3{
+  font-size: 2rem;
+  padding-bottom:10px;
+}
+.categories .outter-box .inner-box:hover{
+  box-shadow: 1px 1px 10px 4px var(--green);
 }
