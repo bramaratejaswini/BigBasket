@@ -320,9 +320,7 @@ section {
   padding-bottom: 10px;
 }
 .features .box-container .box .btn {
-  width: 200px;
-  display: flex;
-  justify-content: center;
+  margin:10px 20px;
 }
 .features .box-container .box:hover {
   cursor: pointer;
@@ -446,18 +444,39 @@ section {
   box-shadow: 1px 1px 10px 4px var(--green);
   cursor: pointer;
 }
-.blog .outter-box{
-  text-align: center;
-  padding:20px;
-  display: flex;
-  justify-content: center; 
-  gap: 50px;
+.blog .outter-box .inner-box img{
+  width: 200px;
+  height: 200px;
 }
-.blog .inner-box{
+.blog .outter-box {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+.blog .outter-box .inner-box{
   border:2px solid black;
   border-radius: .5rem;
-  padding:20px;
-  width: 320px;
-  height: 400px;
-  display: inline-block;
+  height: 360px;
+  width: 300px;
+  text-align: center;
+  
+}
+.blog .outter-box .inner-box img{
+  width: 296px;
+  padding-bottom: 10px;
+}
+.blog .outter-box .inner-box .fa-user{
+  padding-bottom: 10px;
+  font-size: 1rem;
+}
+.blog .outter-box .inner-box h3{
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+.blog .outter-box .inner-box p{
+  padding-bottom:10px;
+  font-size: 1rem;
+}
+.blog .outter-box .inner-box a{
+  margin:10px 20px;
 }
