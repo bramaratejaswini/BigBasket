@@ -405,3 +405,59 @@ section {
 .categories .outter-box .inner-box:hover{
   box-shadow: 1px 1px 10px 4px var(--green);
 }
+.review .outter-box{
+  text-align: center;
+  padding:20px;
+  display: flex;
+  justify-content: center; 
+  gap: 50px;
+
+}
+.review .outter-box .inner-box{
+  border:2px solid black;
+  border-radius: .5rem;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  padding:20px;
+  width: 320px;
+  height: 400px;
+  display: inline-block;
+  
+}
+.review .outter-box .inner-box img{
+  border-radius: 50%;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+.review .outter-box .inner-box p{
+  padding:10px;
+  font-size: 1.3rem;
+}
+.review .outter-box .inner-box h3{
+  font-size: 2rem;
+  padding-top: 10px;
+}
+.review .outter-box .inner-box .fa-star{
+  font-size: 15px;
+  color:orange;
+}
+.review .outter-box .inner-box:hover{
+  box-shadow: 1px 1px 10px 4px var(--green);
+  cursor: pointer;
+}
+.blog .outter-box{
+  text-align: center;
+  padding:20px;
+  display: flex;
+  justify-content: center; 
+  gap: 50px;
+}
+.blog .inner-box{
+  border:2px solid black;
+  border-radius: .5rem;
+  padding:20px;
+  width: 320px;
+  height: 400px;
+  display: inline-block;
+}
