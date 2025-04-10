@@ -480,3 +480,20 @@ section {
 .blog .outter-box .inner-box a{
   margin:10px 20px;
 }
+.footer{
+  background-color:lightgray;
+}
+.footer .outter-box{
+  display: flex;
+  justify-content: space-around;
+}
+.footer .outter-box .inner-box{
+  text-align: center;
+  font-size: 1.5rem;
+  width: 300px;
+  height: 300px;
+}
+.footer .outter-box .inner-box img{
+  width: 300px;
+  height: 100px;
+}
